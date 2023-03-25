@@ -6,17 +6,10 @@ public class Main {
         ArrayList<String> Hewan = new ArrayList<String>(Arrays.asList("Sapi", "Kelinci", "Kambing", "Unta", "Domba"));
 
         ArrayList<String> DeleteHewan = new ArrayList<String>(Arrays.asList("Kelinci", "Kambing", "Unta"));
-        
-        System.out.print("Animal names:");
-        for (String print : Hewan) {
-            System.out.print(print+ ",");
-        }
-        
-        Hewan.removeAll(DeleteHewan);
 
-        System.out.print("\nAnimals after removing: ");
-        for (String print : Hewan) {
-            System.out.print(print + ",");
-        }
+        System.out.println(Hewan);
+        System.out.println(DeleteHewan);
+        Hewan.removeAll(DeleteHewan);
+        System.out.println(Hewan);
     }
 }
