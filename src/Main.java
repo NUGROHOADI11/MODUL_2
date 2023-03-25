@@ -7,9 +7,9 @@ public class Main {
 
         ArrayList<String> DeleteHewan = new ArrayList<String>(Arrays.asList("Kelinci", "Kambing", "Unta"));
 
-        System.out.println(Hewan);
-        System.out.println(DeleteHewan);
+        System.out.println("Hewan: "+Hewan);
+        System.out.println("Hewan yang Dihapus: "+DeleteHewan);
         Hewan.removeAll(DeleteHewan);
-        System.out.println(Hewan);
+        System.out.println("Output Hewan: "+Hewan);
     }
 }
